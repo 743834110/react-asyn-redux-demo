@@ -7,3 +7,9 @@ it('renders without crashing', () => {
   ReactDOM.render(<App />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
+
+it('spec name', function () {
+  let string = 'aaaa';
+  string = `dfdfdfdd${string}`;
+  console.log(string);
+});
